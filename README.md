@@ -1,8 +1,8 @@
 **Nested JSON 2 csv parser**
-<p>This parser help to you convert any nested json structure into csv content. This parser has flexibility of convert array json and json object.<p>
+</p>This parser help to you convert any nested json structure into csv content. This parser has flexibility of convert array json and json object.</p>
 
 **Example:-**
-*/var json2csv = require('./json-2-csv.js');
+<code>var json2csv = require('./json-2-csv.js');
 var arrayJSON = [{id:1, name:'Yuvraj', age:28}, {id:2, name:'Amit', age:29, address:{temporary:'J-116 Sector 12 Noida Uttar Pradesh India', permanent:'H-2 krishna temple street Gokul Mathura Uttar Pradesh '}}];
 // get csv content along with header
 csvData = json2csv.convertJSON2csv(arrayJSON, false); // it will return json with two propreties err and csv
@@ -47,4 +47,5 @@ console.log(csvData)
   header: 'id,name,age,address_temporary,address_permanent' 
 }
 */
-<p> If you have any issue or suggetion, please let me know. You can connect with me on my e-mail address:- yuvrajdhl@gmail.com<p>
+</code>
+<p> If you have any issue or suggetion, please let me know. You can connect with me on my e-mail address:- yuvrajdhl@gmail.com</p>
